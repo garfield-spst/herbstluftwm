@@ -39,6 +39,7 @@ WEB_BROWSER='waterfox-g4'
 hc keybind $Mod-v spawn "$TEXT_EDITOR"
 hc keybind $Mod-Shift-f spawn "$FILE_MANAGER"
 hc keybind $Mod-Shift-w spawn "$WEB_BROWSER"
+hc keybind $Mod-s spawn scratchpad.sh
 
 # rofi menus
 hc keybind $Alt-F1 spawn ~/.config/herbstluftwm/rofi/bin/launcher
